@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Maintenance - Bright Street</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Top Contact Bar -->
+    <div class="bg-[#2196F3] text-white py-2 px-4">
+        <div class="container mx-auto flex flex-wrap justify-between items-center text-sm">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-phone mr-2"></i> +880 1812345678</span>
+                <span><i class="fa-solid fa-envelope mr-2"></i> info@brightstreet.bd</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="text-2xl font-bold text-blue-900 tracking-wider">
+                    <span class="text-blue-600">BRIGHT</span> <span class="text-amber-500">STREET</span>
+                    <p class="text-[10px] text-gray-500 font-normal tracking-normal uppercase">bright-street-pest-maintenance-painting  LLC</p>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium">
+                <!-- Home (no link) -->
+                <span class="text-green-600 cursor-default">Home</span>
+
+                <!-- Cleaning (no link) -->
+                <span class="flex items-center cursor-default">
+                    Cleaning <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                </span>
+
+                <!-- Pest Control Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2 cursor-pointer font-medium">
+                        Pest Control <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-60 bg-white border border-gray-100 shadow-xl rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="pest-control.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> PEST Control</a>
+                        <a href="rats-mice-rodents.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Rats, Mice & Rodents</a>
+                        <a href="cockroach.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Cockroach</a>
+                        <a href="ants.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Ants</a>
+                        <a href="bed-bugs.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Bed Bugs</a>
+                    </div>
+                </div>
+
+                <!-- Maintenance Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Maintenance <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-56 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="ac-maintenance.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> AC Maintenance</a>
+                        <a href="electrical-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Electrical Services</a>
+                        <a href="plumbing-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Plumbing Services</a>
+                        <a href="handyman-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Handyman Services</a>
+                    </div>
+                </div>
+
+                <!-- Painting Services Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Painting Services <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-64 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="painting-bangladesh.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Painting Services in Bangladesh</a>
+                        <a href="apartment-villa-painting.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Apartment & Villa Painting</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+   <main class="py-12 container mx-auto px-4 min-h-[500px] space-y-12" id="ac-services">
+    
+    <!-- Section 1: Hero Banner -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div class="space-y-6">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                High-Quality AC Repair in Chittagong[cite: 29]
+            </h1>
+            <p class="text-lg text-gray-700 font-medium">
+                BSGM&CS-LLC, Your Trusted Air Conditioning Repair and Maintenance Service[cite: 29]
+            </p>
+            <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Comprehensive AC Services[cite: 29]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Emergency Support 24/7[cite: 29]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Energy Efficiency Experts[cite: 29]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Servicing All Major Brands[cite: 29]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Guaranteed Quality Workmanship[cite: 29]</li>
+            </ul>
+        </div>
+        <div>
+            <img src="../images/ac-repair-technician.jpg" alt="AC Repair Expert" class="rounded-lg shadow-md w-full object-cover h-[380px]">
+        </div>
+    </div>
+    
+    <!-- Bottom Schedule & Discount Bar -->
+    <div class="bg-black text-white p-4 rounded-xl flex flex-col md:flex-row justify-between items-center gap-4">
+        <span class="text-sm md:text-base font-medium">Schedule Your Appointment Today and Enjoy Your Service![cite: 29]</span>
+        <a href="#contact" class="bg-[#3498db] hover:bg-blue-600 text-white px-6 py-2.5 rounded-lg font-semibold text-sm transition">GET 15% OFF BSGM&CS-LLC</a>[cite: 29]
+    </div>
+
+    <!-- Section 2: Professional AC Repairing Service -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div>
+            <img src="../images/ac-unit-repair.jpg" alt="AC Unit Repair" class="rounded-lg shadow-md w-full object-cover h-[380px]">
+        </div>
+        <div class="space-y-6">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">Professional AC Repairing Service in Chittagong By BSGM&CS-LLC[cite: 30]</h2>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    In the scorching heat of Chittagong, you can't live without an air conditioner, but what if it stops working? So, a reliable air conditioning system becomes essential for comfort and well-being. At BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C (BSGM&CS-LLC), we understand the importance of keeping your cooling systems in top-notch condition. Our expert AC repair in Chittagong ensures your air conditioning units operate efficiently, providing you with uninterrupted comfort throughout the year[cite: 30].
+                </p>
+            </div>
+            <div>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    According to the AC manufacturing companies, you need to service your AC regularly. After using it for a couple of weeks or months, the filter of the AC gets dusty, which can cause permanent damage to your AC. In Chittagong, getting a timely air conditioning repair service is becoming a challenge day by day. Cleaning and maintenance service providing companies promising but not delivering has become a natural thing. We at BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C have been offering AC maintenance in Chittagong successfully for a decade now. Our ac repair experts are highly skilled and experienced. They have experience in repairing ACs of all brands and kinds[cite: 30].
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3: AC Repair Services We Offer -->
+    <div class="bg-white p-6 rounded-xl shadow-sm space-y-6">
+        <h2 class="text-2xl font-bold text-gray-900">AC Repair Services We Offer In Chittagong[cite: 31]</h2>
+        <p class="text-gray-600 text-sm">
+            At BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C, we take pride in offering a full range of professional air conditioning solutions tailored to meet your needs. From routine maintenance to emergency repairs, we ensure that your air conditioning system runs smoothly year-round. We offer a variety range of ac repair services[cite: 31]:
+        </p>
+        
+        <div class="space-y-4">
+            <div class="border-b pb-4">
+                <h3 class="text-lg font-bold text-gray-900">AC Repair Services:</h3>
+                <p class="text-gray-600 text-sm mt-1">When your air conditioning system encounters issues, our team of experienced technicians is here to provide fast and efficient repairs. Whether it's a minor malfunction or a major system failure, we are equipped to handle a wide range of AC problems. We use advanced diagnostic tools to identify the issue and offer cost-effective repair solutions accurately. Our goal is to restore your AC to peak performance, ensuring it runs efficiently and effectively for the long term[cite: 31].</p>
+            </div>
+            <div class="border-b pb-4">
+                <h3 class="text-lg font-bold text-gray-900">AC Cleaning Services:</h3>
+                <p class="text-gray-600 text-sm mt-1">Over time, dust, dirt, and allergens can accumulate within your air conditioning system, affecting its performance and the air quality in your home or business. Our thorough AC cleaning services include cleaning the filters, coils, and ducts to remove contaminants that hinder airflow and system efficiency. Regular cleaning not only improves indoor air quality, making your environment healthier but also helps your AC run more efficiently, reducing energy consumption and preventing future breakdowns[cite: 31].</p>
+            </div>
+            <div class="pb-2">
+                <h3 class="text-lg font-bold text-gray-900">Preventive AC Maintenance:</h3>
+                <p class="text-gray-600 text-sm mt-1">Regular preventive maintenance is crucial to keeping your air conditioning system in top shape. Our preventive AC maintenance service includes scheduled inspections, cleaning, lubrication, and performance checks. By catching minor issues early, we prevent costly repairs and extend the lifespan of your system. Our maintenance plan helps ensure that your AC operates efficiently throughout the year, reducing the likelihood of unexpected breakdowns and maximizing its[cite: 31] efficiency.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: Benefits of Regular AC Maintenance -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div class="space-y-4">
+            <!-- Image Search Keyword: ac maintenance outside unit technician -->
+            <img src="../images/ac-maintenance.jpg" alt="AC Maintenance Benefits" class="rounded-lg shadow-md w-full object-cover h-[300px]">
+        </div>
+        <div class="space-y-4">
+            <h2 class="text-2xl font-bold text-gray-900">Benefits of Regular AC Maintenance in Chittagong[cite: 32]</h2>
+            <ul class="space-y-3 text-gray-600 text-sm">
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> <strong>Enhanced Cooling Efficiency:</strong> Regular maintenance boosts cooling performance, keeping you comfortable in the heat[cite: 32].</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> <strong>Energy Savings:</strong> Well-maintained systems reduce energy use, lowering your electricity bills[cite: 32].</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> <strong>Extended Lifespan:</strong> Routine servicing prevents wear and extends your AC's lifespan[cite: 32].</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> <strong>Healthier Air Quality:</strong> Our cleaning services remove dust, mould, and allergens for cleaner air[cite: 32].</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Section 5: Customer FAQ (Interactive Accordion) -->
+    <div class="bg-white p-6 rounded-xl shadow-sm space-y-6" id="faq">
+        <h2 class="text-2xl font-bold text-gray-900 text-center mb-6">Customer FAQ – Frequently Asked Questions[cite: 33]</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- FAQ Item 1 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>How much is AC repair in Chittagong?[cite: 33]</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> Cost varies based on the issue and parts needed, but we provide affordable and transparent pricing.
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>Which is the best AC in the UAE / Bangladesh?[cite: 33]</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> Brands like General, Daikin, Mitsubishi, and Gree are among the most reliable for regional climates.
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>How much should replacing an AC cost?[cite: 33]</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> Replacement costs depend on tonnage and brand specifications; contact us for a free estimate.
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>What happens if an air conditioner is not serviced?[cite: 33]</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> It loses efficiency, consumes more electricity, and can break down prematurely.
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>Can we use AC without cleaning?[cite: 33]</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> It is not recommended due to dust buildup, poor air quality, and high energy usage.
+                </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>Why does my AC compressor shut off after 2-3 minutes?[cite: 33]</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> This is usually due to overheating, electrical issues, or a faulty capacitor.
+                </div>
+            </div>
+
+            <!-- FAQ Item 7 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>How often should an AC be serviced in Chittagong?[cite: 33]</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> At least once every 3 to 6 months to ensure optimal performance.
+                </div>
+            </div>
+
+            <!-- FAQ Item 8 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>Is professional AC maintenance better than DIY cleaning?[cite: 33]</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> Yes, professionals inspect electrical components and deep clean coils safely, preventing damage.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!-- JavaScript for FAQ Toggle -->
+<script>
+function toggleFaq(button) {
+    const answer = button.nextElementSibling;
+    const icon = button.querySelector('.faq-icon');
+    
+    answer.classList.toggle('hidden');
+    if (answer.classList.contains('hidden')) {
+        icon.textContent = '+';
+    } else {
+        icon.textContent = '-';
+    }
+}
+</script>
+
+<!-- Section: Google Reviews & Mobile App Download -->
+<div class="space-y-12 py-8 container mx-auto px-4">
+    
+    <!-- Google Reviews Section -->
+    <div class="bg-white p-6 rounded-xl shadow-sm">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+            
+            <!-- Left Info & Write Review Button -->
+            <div class="space-y-4 text-center lg:text-left">
+                <div class="flex items-center justify-center lg:justify-start space-x-3">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=150&q=80" alt="Company Logo" class="w-16 h-16 rounded-lg object-cover shadow">
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-sm">BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C</h3>
+                        <div class="flex items-center justify-center lg:justify-start space-x-1 text-yellow-400 text-sm mt-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-1">263 Google reviews</p>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://g.page/r/your-google-review-link/review" target="_blank" class="inline-block border border-gray-300 hover:bg-gray-50 text-gray-800 font-semibold px-5 py-2.5 rounded-lg text-sm transition shadow-sm">
+                        Write a review
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Review Cards -->
+            <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Review Card 1 -->
+                <div class="border border-gray-200 bg-white p-5 rounded-xl shadow-sm relative">
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-full bg-stone-700 text-white flex items-center justify-center font-bold">m</div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm">muath alrammal</h4>
+                                <p class="text-xs text-gray-400">7 September 2026</p>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-google text-blue-500 text-lg"></i>
+                    </div>
+                    <div class="flex items-center space-x-1 text-yellow-400 text-xs mb-2">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-circle-check text-blue-500 ml-1"></i>
+                    </div>
+                    <p class="text-gray-600 text-xs leading-relaxed">
+                        Ismail and Anwar were excellent and professional
+                    </p>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="border border-gray-200 bg-white p-5 rounded-xl shadow-sm relative">
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex items-center space-x-3">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Svitlana Hurina" class="w-10 h-10 rounded-full object-cover">
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm">Svitlana Hurina</h4>
+                                <p class="text-xs text-gray-400">3 September 2026</p>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-google text-blue-500 text-lg"></i>
+                    </div>
+                    <div class="flex items-center space-x-1 text-yellow-400 text-xs mb-2">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-circle-check text-blue-500 ml-1"></i>
+                    </div>
+                    <p class="text-gray-600 text-xs leading-relaxed">
+                        Gigi is amazing lady and professional! I like how she is dedicated and focused. I appreciate and recommend Gigi😊
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Download App Section -->
+    <div class="bg-white p-8 rounded-xl shadow-sm grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div class="space-y-6">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                Download the app. <br>Easily Manage Your Bookings.
+            </h2>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                Schedule and manage your appointments, check your professional profile and ratings, explore the latest offers, and so much more.
+            </p>
+            <div class="flex flex-wrap gap-4 pt-2">
+                <a href="#" class="inline-block">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" class="h-12">
+                </a>
+                <a href="#" class="inline-block">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="h-12">
+                </a>
+            </div>
+        </div>
+        <div class="flex justify-center lg:justify-end">
+            <!-- App Mockup Image -->
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=600&q=80" alt="App Mockup" class="max-h-[380px] rounded-xl object-contain shadow-md">
+        </div>
+    </div>
+
+</div>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white pt-12 pb-6">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Company Info & QR Code -->
+            <div>
+                <h2 class="text-xl font-bold mb-4 text-amber-500">BRIGHT STREET</h2>
+                <p class="text-gray-400 text-sm mb-4">
+                    BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES - L.L.C is your trusted partner for all cleaning, maintenance, and pest control needs in Chittagong, Bangladesh.
+                </p>
+                <h3 class="font-semibold mb-2">Connect with us</h3>
+                <div class="flex space-x-3 mb-6">
+                    <a href="https://facebook.com" target="_blank" class="bg-blue-600 p-2 rounded text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="bg-pink-600 p-2 rounded text-white"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="bg-gray-700 p-2 rounded text-white"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://tiktok.com" target="_blank" class="bg-red-600 p-2 rounded text-white"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://web.whatsapp.com" target="_blank" class="bg-green-600 p-2 rounded text-white"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <!-- QR Code Box -->
+                <div class="bg-white p-2 inline-block rounded shadow">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://github.com/Miskat098" alt="QR Code" class="w-28 h-28 object-contain">
+                </div>
+            </div>
+
+            <!-- Our Services Links -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Our Services</h3>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Deep Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Home Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Sofa Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Pest Control</a></li>
+                </ul>
+                <div class="mt-4">
+                    <button class="bg-white text-black px-4 py-2 rounded text-sm font-semibold hover:bg-gray-200">More Service</button>
+                </div>
+            </div>
+
+            <!-- Get In Touch & Google Maps -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Get In Touch</h3>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-location-dot mr-2 text-amber-500"></i> GEC Circle, Chittagong - Bangladesh</p>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-phone mr-2 text-amber-500"></i> +880 1800 000000</p>
+                <p class="text-sm text-gray-400 mb-4"><i class="fa-solid fa-envelope mr-2 text-amber-500"></i> info@brightstreet.bd</p>
+
+                <!-- Google Maps Embed -->
+                <div class="mt-4 rounded overflow-hidden border border-gray-700 shadow-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7891234567!2d91.815!3d22.356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDIxJzMxLjYiTiA5McKwNDgnNTQuMCJF!5e0!3m2!1sen!2sbd!4v1600000000000!5m2!1sen!2sbd" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 mt-8 pt-4 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+            <p>© 2026 Bright Street General Maintenance & Cleaning Services LLC. All rights reserved.</p>
+            <p class="mt-2 md:mt-0">Designed & Developed by <span class="text-amber-500 font-semibold">Abida Sultana</span></p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

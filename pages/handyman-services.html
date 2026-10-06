@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handyman Services - Bright Street</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Top Contact Bar -->
+    <div class="bg-[#2196F3] text-white py-2 px-4">
+        <div class="container mx-auto flex flex-wrap justify-between items-center text-sm">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-phone mr-2"></i> +880 1812345678</span>
+                <span><i class="fa-solid fa-envelope mr-2"></i> info@brightstreet.bd</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="text-2xl font-bold text-blue-900 tracking-wider">
+                    <span class="text-blue-600">BRIGHT</span> <span class="text-amber-500">STREET</span>
+                    <p class="text-[10px] text-gray-500 font-normal tracking-normal uppercase">bright-street-pest-maintenance-painting  LLC</p>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium">
+                <!-- Home (no link) -->
+                <span class="text-green-600 cursor-default">Home</span>
+
+                <!-- Cleaning (no link) -->
+                <span class="flex items-center cursor-default">
+                    Cleaning <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                </span>
+
+                <!-- Pest Control Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2 cursor-pointer font-medium">
+                        Pest Control <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-60 bg-white border border-gray-100 shadow-xl rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="pest-control.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> PEST Control</a>
+                        <a href="rats-mice-rodents.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Rats, Mice & Rodents</a>
+                        <a href="cockroach.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Cockroach</a>
+                        <a href="ants.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Ants</a>
+                        <a href="bed-bugs.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Bed Bugs</a>
+                    </div>
+                </div>
+
+                <!-- Maintenance Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Maintenance <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-56 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="ac-maintenance.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> AC Maintenance</a>
+                        <a href="electrical-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Electrical Services</a>
+                        <a href="plumbing-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Plumbing Services</a>
+                        <a href="handyman-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Handyman Services</a>
+                    </div>
+                </div>
+
+                <!-- Painting Services Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Painting Services <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-64 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="painting-bangladesh.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Painting Services in Bangladesh</a>
+                        <a href="apartment-villa-painting.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Apartment & Villa Painting</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="py-12 container mx-auto px-4 min-h-[500px]">
+
+       
+    <section class="relative bg-white overflow-hidden py-12 lg:py-20 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+                        Top-Rated Handyman Service in Bangladesh
+                    </h1>
+                    <p class="text-lg sm:text-xl font-semibold text-gray-700">
+                        #1 Handyman Service Excellence in Bangladesh, Transforming Homes in a Reliable Way
+                    </p>
+                    <ul class="space-y-3 text-gray-600 text-sm sm:text-base">
+                        <li class="flex items-center space-x-2">
+                            <span class="text-blue-500 font-bold">•</span>
+                            <span>Licensed Professionals</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="text-blue-500 font-bold">•</span>
+                            <span>Mission with Zero Complaint Service</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="text-blue-500 font-bold">•</span>
+                            <span>24/7 Emergency Customer Service</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="text-blue-500 font-bold">•</span>
+                            <span>100% Satisfaction Guaranteed</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="relative flex justify-center">
+                    <img src="../images/handyman-drill-working.jpg" alt="Handyman working with drill" class="rounded-2xl shadow-lg max-h-[400px] object-cover w-full">
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Banner Strip -->
+        <div class="mt-12 bg-black text-white py-4 px-6">
+            <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+                <p class="text-sm sm:text-base font-medium">Schedule Your Appointment Today and Enjoy Your Service!</p>
+                <a href="#booking" class="bg-sky-500 hover:bg-sky-600 text-white font-bold px-6 py-2.5 rounded-lg text-sm transition">
+                    GET 15% OFF BSGM&CS-LLC
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+       <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <!-- Related image path based on ceiling light fixture fixing in SS -->
+                <img src="/images/handyman-ceiling-light-repair.jpg" alt="Professional Handyman fixing ceiling light" class="rounded-2xl shadow-md w-full object-cover max-h-[400px]">
+            </div>
+            <div class="space-y-6">
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">
+                    Professional Handyman Service Provider in Abu Dhabi By BSGM&CS-LLC
+                </h2>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                    In Abu Dhabi, time is valuable, and so is keeping the homes and offices in first-class condition. Unfortunately, it became a challenge for most of the residents in different areas because of their busy lives. So fixing a leaking pipe, assembling new furniture, or refreshing your home's look with a fresh coat of paint always seems a lot and impossible to do.
+                </p>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                    At <span class="text-sky-600 font-semibold">BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C</span>, we provide professional handymen in Abu Dhabi with such repairs and work. With us, you will get premium service that will meet the unique needs of UAE residents. From high-rise apartments in Al Reem Island to spacious villas in Khalifa City or busy offices in Al Maryah Island, our expert team ensures quality work every single time. Whether you need a quick repair or comprehensive maintenance, we're here to deliver seamless service across the UAE.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div class="space-y-4">
+            <h2 class="text-3xl font-bold text-gray-900">Variations of Handyman Services</h2>
+            <p class="text-gray-600 max-w-4xl text-sm sm:text-base leading-relaxed">
+                With our variety of highly experienced and expert handymen in Bangladesh, we ensure that you get the best care for your home and office. You can choose us for routine maintenance or one-time projects, and you will get the same premium quality zero compromised service. We cater to every need with precision and efficiency.
+            </p>
+        </div>
+
+        <!-- Service 1 -->
+        <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm space-y-4">
+            <h3 class="text-xl font-bold text-gray-900">1. Home Repair and Maintenance Services</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C provides the best home maintenance services in Bangladesh. You can maintain your home's functionality and aesthetics just the way you like with our expert solutions:
+            </p>
+            <ul class="space-y-3 text-gray-600 text-sm">
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Plumbing Repairs:</strong> From fixing leaking faucets and clogged drains to replacing damaged pipes, our plumbing experts can repair any problem you are facing. Our expert hand will install new fixtures and ensure a seamless water flow.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Electrical Work:</strong> We repair faulty wiring, replace damaged switches, and install ceiling fans or light fixtures while adhering to safety standards.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Air Conditioning Maintenance:</strong> As we know, Bangladesh's climate can get quite warm, so using ACs is like breathing. We ensure your AC units operate efficiently through filter replacements, cleaning, and general servicing.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Window and Door Repairs:</strong> Sealing gaps in windows or broken door hinges and locks at BSGM&CS-LLC ensures safety and energy efficiency in every project.</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm space-y-4">
+            <h3 class="text-xl font-bold text-gray-900">2. Furniture Assembly and Installation</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                Installing new furniture or simply assembling the older ones is vital to match your interior decor. You can simplify your furniture setup and enhance your living space with our expert handyman help in your area:
+            </p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm space-y-4">
+            <h3 class="text-xl font-bold text-gray-900">3. Painting and Renovation Solutions</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                After a particular time, you need to renovate your home or office. Painting your space with new colors gives you the fresh feel that you get from a new home or office. Revitalize your space with a fresh and modern look:
+            </p>
+            <ul class="space-y-3 text-gray-600 text-sm">
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Interior Painting Services:</strong> With paint, one thing we must ensure is that we use high-quality, weather-resistant paints. It will enhance the beauty and longevity of your walls, ideally suited for Bangladesh's climate. At BSGM&CS-LLC, we ensure top-notch quality interior painting services for our clients.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Tiling Services:</strong> Our team repairs and replaces tiles in bathrooms, kitchens, and patios, offering a polished and uniform finish.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Surface Repairs:</strong> We expertly repair cracks, peeling paint, and water damage to restore walls and ceilings to their pristine condition.</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm space-y-4">
+            <h3 class="text-xl font-bold text-gray-900">4. Office Maintenance Solutions</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                Office spaces need to look superb and top-notch every time, or workers won't feel good, and productivity will decrease. We offer professional office maintenance solutions to ensure a professional, productive work environment:
+            </p>
+            <ul class="space-y-3 text-gray-600 text-sm">
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Office Furniture Repairs:</strong> From fixing broken desks and chairs to optimizing storage cabinets, we ensure your furniture remains functional and visually appealing.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Electrical and IT Maintenance:</strong> Our technicians address power issues, install new outlets, and provide essential IT support to keep your office running smoothly.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                    <span class="text-blue-500 font-bold">•</span>
+                    <span><strong class="text-gray-900">Space Optimization:</strong> We assist with layout adjustments, improving workplace efficiency by adapting to your team’s needs.</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm space-y-4">
+            <h3 class="text-xl font-bold text-gray-900">5. Specialized Services</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                Tailored assistance addressing specific technical and unique property enhancement needs.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Left Side Image -->
+            <div class="relative flex justify-center">
+                <img src="../images/handyman-kitchen-repair.jpg" alt="Handyman repairing kitchen chimney or cabinet" class="rounded-2xl shadow-lg w-full object-cover max-h-[450px]">
+            </div>
+
+            <!-- Right Side Content -->
+            <div class="space-y-6">
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">
+                    How to Book Our Handyman Services
+                </h2>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                    Our booking process is the easiest of them all to make it hassle-free for our customers:
+                </p>
+                <div class="space-y-4 text-gray-700 text-sm sm:text-base">
+                    <p>
+                        <strong class="text-gray-900">Step 1: Reach Out to Us:</strong> Call us directly or use our online booking form.
+                    </p>
+                    <p>
+                        <strong class="text-gray-900">Step 2: Discuss Your Needs:</strong> Share details of the task(s) you need assistance with.
+                    </p>
+                    <p>
+                        <strong class="text-gray-900">Step 3: Receive a Quote:</strong> Get a transparent and competitive quote with no hidden fees.
+                    </p>
+                    <p>
+                        <strong class="text-gray-900">Step 4: Schedule a Visit:</strong> Choose a time that works for you.
+                    </p>
+                    <p>
+                        <strong class="text-gray-900">Step 5: Enjoy Stress-Free Repairs:</strong> Sit back and let our experts handle the job professionally and efficiently.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white pt-12 pb-6">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Company Info & QR Code -->
+            <div>
+                <h2 class="text-xl font-bold mb-4 text-amber-500">BRIGHT STREET</h2>
+                <p class="text-gray-400 text-sm mb-4">
+                    BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES - L.L.C is your trusted partner for all cleaning, maintenance, and pest control needs in Chittagong, Bangladesh.
+                </p>
+                <h3 class="font-semibold mb-2">Connect with us</h3>
+                <div class="flex space-x-3 mb-6">
+                    <a href="https://facebook.com" target="_blank" class="bg-blue-600 p-2 rounded text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="bg-pink-600 p-2 rounded text-white"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="bg-gray-700 p-2 rounded text-white"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://tiktok.com" target="_blank" class="bg-red-600 p-2 rounded text-white"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://web.whatsapp.com" target="_blank" class="bg-green-600 p-2 rounded text-white"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <!-- QR Code Box -->
+                <div class="bg-white p-2 inline-block rounded shadow">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://github.com/Miskat098" alt="QR Code" class="w-28 h-28 object-contain">
+                </div>
+            </div>
+
+            <!-- Our Services Links -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Our Services</h3>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Deep Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Home Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Sofa Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Pest Control</a></li>
+                </ul>
+                <div class="mt-4">
+                    <button class="bg-white text-black px-4 py-2 rounded text-sm font-semibold hover:bg-gray-200">More Service</button>
+                </div>
+            </div>
+
+            <!-- Get In Touch & Google Maps -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Get In Touch</h3>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-location-dot mr-2 text-amber-500"></i> GEC Circle, Chittagong - Bangladesh</p>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-phone mr-2 text-amber-500"></i> +880 1812345678</p>
+                <p class="text-sm text-gray-400 mb-4"><i class="fa-solid fa-envelope mr-2 text-amber-500"></i> info@brightstreet.bd</p>
+
+                <!-- Google Maps Embed -->
+                <div class="mt-4 rounded overflow-hidden border border-gray-700 shadow-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7891234567!2d91.815!3d22.356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDIxJzMxLjYiTiA5McKwNDgnNTQuMCJF!5e0!3m2!1sen!2sbd!4v1600000000000!5m2!1sen!2sbd" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 mt-8 pt-4 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+            <p>© 2026 Bright Street General Maintenance & Cleaning Services LLC. All rights reserved.</p>
+            <p class="mt-2 md:mt-0">Designed & Developed by <span class="text-amber-500 font-semibold">Abida Sultana</span></p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

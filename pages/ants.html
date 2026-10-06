@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ants - Bright Street</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Top Contact Bar -->
+    <div class="bg-[#2196F3] text-white py-2 px-4">
+        <div class="container mx-auto flex flex-wrap justify-between items-center text-sm">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-phone mr-2"></i> +880 1812345678</span>
+                <span><i class="fa-solid fa-envelope mr-2"></i> info@brightstreet.bd</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="text-2xl font-bold text-blue-900 tracking-wider">
+                    <span class="text-blue-600">BRIGHT</span> <span class="text-amber-500">STREET</span>
+                    <p class="text-[10px] text-gray-500 font-normal tracking-normal uppercase">bright-street-pest-maintenance-painting  LLC</p>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium">
+                <!-- Home (no link) -->
+                <span class="text-green-600 cursor-default">Home</span>
+
+                <!-- Cleaning (no link) -->
+                <span class="flex items-center cursor-default">
+                    Cleaning <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                </span>
+
+                <!-- Pest Control Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2 cursor-pointer font-medium">
+                        Pest Control <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-60 bg-white border border-gray-100 shadow-xl rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="pest-control.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> PEST Control</a>
+                        <a href="rats-mice-rodents.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Rats, Mice & Rodents</a>
+                        <a href="cockroach.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Cockroach</a>
+                        <a href="ants.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Ants</a>
+                        <a href="bed-bugs.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Bed Bugs</a>
+                    </div>
+                </div>
+
+                <!-- Maintenance Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Maintenance <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-56 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="ac-maintenance.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> AC Maintenance</a>
+                        <a href="electrical-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Electrical Services</a>
+                        <a href="plumbing-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Plumbing Services</a>
+                        <a href="handyman-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Handyman Services</a>
+                    </div>
+                </div>
+
+                <!-- Painting Services Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Painting Services <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-64 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="painting-bangladesh.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Painting Services in Bangladesh</a>
+                        <a href="apartment-villa-painting.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Apartment & Villa Painting</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+   <main class="py-12 container mx-auto px-4 min-h-[500px] space-y-12" id="ant-services">
+    
+    <!-- Section 1: Hero Banner -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div class="space-y-6">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                BSGM&CS-LLC Ant Pest Control Services in Chittagong – Wipe Out Ant Colonies for Good!
+            </h1>
+            <p class="text-lg text-gray-700 font-medium">
+                Tiny Ants, Big Problem? BSGM&CS-LLC is the Solution![cite: 21]
+            </p>
+            <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Safe for Kids & Pets[cite: 21]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Available for 24/7 Emergency Service[cite: 21]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Same-Day Service Available[cite: 21]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Indoor & Outdoor Treatments[cite: 21]</li>
+            </ul>
+            <div>
+                <a href="#contact" class="inline-block bg-[#3498db] text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-600 transition">Get a Quote</a>[cite: 21]
+            </div>
+        </div>
+        <div>
+            <!-- Image Search Keyword: ant-pest-control-technician-spraying.jpg -->
+            <img src="../images/ant-technician.jpg" alt="Ant Pest Control Expert" class="rounded-lg shadow-md w-full object-cover h-[380px]">
+        </div>
+    </div>
+
+    <!-- Section 2: Best Ant Pest Control Services & Why Professional Matters -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div>
+            <!-- Image Search Keyword: closeup-ant-macro.jpg -->
+            <img src="../images/ant-closeup.jpg" alt="Ant Inspection" class="rounded-lg shadow-md w-full object-cover h-[380px]">
+        </div>
+        <div class="space-y-6">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">Best Ant Pest Control Services in Chittagong</h2>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Are ants marching on your kitchen counter or settling in your garden? These tiny pests may seem harmless, but they can cause significant problems, from damaging food to compromising your property, and pose a risk to everything. At BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C, we offer fast and effective ant pest control services in Chittagong to eliminate ants at their source and prevent them from returning. Whether it’s your home, garden, or business, we have the right solution to keep your space ant-free[cite: 22].
+                </p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Why Professional Ant Control Matters[cite: 22]</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Ants may be tiny, but their impact can be huge. They spread bacteria into your food, destroy wood, and cause painful stings, especially if you have fire ants. Put the real problem in that. Do not let ants control your living space[cite: 22].
+                </p>
+            </div>
+            <div>
+                <a href="#contact" class="inline-block bg-[#3498db] text-white px-5 py-2.5 rounded-lg font-semibold text-sm shadow hover:bg-blue-600 transition">GET 15% OFF BSGM&CS-LLC</a>[cite: 22]
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3: Benefits of Our Ant Pest Control Services -->
+    <div class="bg-white p-6 rounded-xl shadow-sm space-y-6">
+        <h2 class="text-2xl font-bold text-gray-900">Benefits of Our Ant Pest Control Services[cite: 23]</h2>
+        
+        <div class="space-y-4">
+            <div class="border-b pb-4">
+                <h3 class="text-lg font-bold text-gray-900">Home Ant Removal[cite: 23]</h3>
+                <p class="text-gray-600 text-sm mt-1">If ants have made themselves at home in your kitchen or living spaces, it’s time to take action. BSGM&CS-LLC utilizes a combination of highly effective bait gels, sprays, and perimeter treatments to effectively eliminate ants. Our treatments attract and banish entire colonies, including the queen, so you don’t have to deal with new ants showing up. Our perimeter Sprays create a protective barrier around your home. Perfect for apartments, villas, and shared spaces[cite: 23].</p>
+            </div>
+            <div class="border-b pb-4">
+                <h3 class="text-lg font-bold text-gray-900">Garden & Outdoor Ant Control[cite: 23]</h3>
+                <p class="text-gray-600 text-sm mt-1">Don’t let ants set up shop in your garden and then march inside. We treat fire ant mounds and keep your garden ant-free with effective lawn-safe bait and organic treatments. BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C outdoor solutions are designed to stop ants in their tracks before they reach your home. Our eco-friendly treatment is entirely safe for your grass and plants. Ideal for: Villas with gardens, compounds, and balconies[cite: 23].</p>
+            </div>
+            <div class="pb-2">
+                <h3 class="text-lg font-bold text-gray-900">Commercial Ant Solutions[cite: 23]</h3>
+                <p class="text-gray-600 text-sm mt-1">Whether you’re running a restaurant, a hotel, or a warehouse, ants can damage your reputation and affect your business. BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C offers customized ant control solutions for companies in Chittagong. We ensure your property stays ant-free while remaining compliant with hygiene standards. We provide discreet, after-hours service to minimize disruption to your operations. We offer non-toxic treatments that are safe for food preparation areas. Additionally, we offer monthly maintenance plans to help keep ants away for good. Perfect for hotels, offices, supermarkets, and warehouses[cite: 23, 24].</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: Areas We Serve -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div class="space-y-4">
+            <!-- Image Search Keyword: ant-trail-on-wall-baseboard.jpg -->
+            <img src="../images/ant-trail.jpg" alt="Ant Infestation Trail" class="rounded-lg shadow-md w-full object-cover h-[300px]">
+        </div>
+        <div class="space-y-4">
+            <h2 class="text-2xl font-bold text-gray-900">Areas We Serve in Chittagong</h2>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                BSGM&CS-LLC proudly offers ant pest control services all over Chittagong, including major residential and commercial areas. Whether you’re in the city center or the suburbs, our pest control specialists are ready to help[cite: 24]:
+            </p>
+            <ul class="space-y-2 text-gray-600 text-sm">
+                <li><i class="fa-solid fa-location-dot text-red-500 mr-2"></i> <strong>City Center:</strong> GEC, Nasirabad, Chatteshwari[cite: 24]</li>
+                <li><i class="fa-solid fa-location-dot text-red-500 mr-2"></i> <strong>Residential Areas:</strong> Agrabad, Khulshi, Panchlaish, Nasirabad Housing[cite: 24]</li>
+                <li><i class="fa-solid fa-location-dot text-red-500 mr-2"></i> <strong>Business Hubs:</strong> GEC Circle, Commercial Area, Agrabad[cite: 24]</li>
+                <li><i class="fa-solid fa-location-dot text-red-500 mr-2"></i> <strong>Suburban Areas:</strong> Halishahar, Patenga, Bayazid, Chittagong EPZ[cite: 24]</li>
+            </ul>
+            <p class="text-xs text-gray-500 pt-2">
+                Our experienced technicians will come to your door and handle all types of ants, whether in your home or business[cite: 24].
+            </p>
+        </div>
+    </div>
+
+    <!-- Section 5: Customer FAQ (Interactive Accordion) -->
+<div class="bg-white p-6 rounded-xl shadow-sm space-y-6 my-8">
+    <h2 class="text-2xl font-bold text-gray-900 text-center mb-6">Customer FAQ – Frequently Asked Questions For Ant Pest Control Service</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- FAQ Item 1 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>How fast can BSGM&CS-LLC get rid of ants in my home?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> Most treatments show effective results within 24 to 48 hours as ants bring the bait back to the colony.
+            </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>Are your treatments safe for children and pets?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> Yes, we use eco-friendly, low-toxicity gel baits and targeted perimeter sprays that are completely safe for families and pets.
+            </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>How do you know where the ants are coming from?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> Our experts thoroughly inspect entry points, trails, and nesting habits to track down the main colony and queen.
+            </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>How often do I need to schedule ant treatments?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> For residential homes, quarterly prevention works best, while commercial properties benefit from monthly maintenance plans.
+            </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>Can you treat ants in my garden or outdoor areas?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> Yes, we offer specialized lawn-safe and eco-friendly treatments for gardens, balconies, and exterior perimeters.
+            </div>
+        </div>
+
+        <!-- FAQ Item 6 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>What types of ants do you treat?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> We handle all common species including black ants, carpenter ants, fire ants, and pharaoh ants.
+            </div>
+        </div>
+
+        <!-- FAQ Item 7 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>Is the treatment odorless?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> Most of our modern gel baits and micro-encapsulated sprays are virtually odorless and cause no disruption.
+            </div>
+        </div>
+
+        <!-- FAQ Item 8 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>What happens if ants come back after treatment?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> We offer follow-up support under our service guarantee to re-treat your space at no extra cost if needed.
+            </div>
+        </div>
+
+        <!-- FAQ Item 9 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>How long will it take for the ants to be completely gone?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> Complete colony elimination typically takes between 3 to 5 days depending on the size of the infestation.
+            </div>
+        </div>
+
+        <!-- FAQ Item 10 -->
+        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+            <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                <span>How can I prevent ants from returning?[cite: 25]</span>
+                <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+            </button>
+            <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                <strong>Answer:</strong> Seal food containers, clean crumbs immediately, and maintain regular barrier sprays around entry points.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Section 6: Google Reviews & App Download Banner -->
+<div class="bg-gray-50 p-6 rounded-xl shadow-sm space-y-8 my-8">
+    <!-- Google Reviews Header & Cards -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 space-y-3">
+            <h3 class="font-bold text-gray-900 text-sm">BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES - L.L.C</h3>
+            <div class="flex items-center space-x-1 text-yellow-400 text-sm">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-xs text-gray-500">263 Google reviews</p>
+            <a href="#" class="inline-block border border-gray-300 text-gray-700 px-4 py-2 rounded-md text-xs font-semibold hover:bg-gray-50 transition">Write a review[cite: 26]</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 space-y-3">
+            <div class="flex justify-between items-center">
+                <span class="font-bold text-sm text-gray-900">muath alrammal[cite: 26]</span>
+                <span class="text-xs text-gray-400">7 September 2026[cite: 26]</span>
+            </div>
+            <div class="text-yellow-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-xs text-gray-600">"Ismail and Anwar were excellent and professional"[cite: 26]</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 space-y-3">
+            <div class="flex justify-between items-center">
+                <span class="font-bold text-sm text-gray-900">Svitlana Hurina[cite: 26]</span>
+                <span class="text-xs text-gray-400">3 September 2026[cite: 26]</span>
+            </div>
+            <div class="text-yellow-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-xs text-gray-600">"Gigi is amazing lady and professional! I like how she is dedicated and focused. I appreciate and recommend Gigi 😊"[cite: 26]</p>
+        </div>
+    </div>
+
+    <!-- Download App Section -->
+    <div class="bg-white p-8 rounded-xl shadow-sm grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+        <div class="space-y-4">
+            <h2 class="text-2xl font-bold text-gray-900">Download the app. Easily Manage Your Bookings.[cite: 26]</h2>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                Schedule and manage your appointments, check your professional profile and ratings, explore the latest offers, and so much more[cite: 26].
+            </p>
+        </div>
+        <div class="flex justify-center lg:justify-end">
+            <img src="../images/app-preview.png" alt="Mobile App Preview" class="h-48 object-contain">
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript for FAQ Toggle -->
+<script>
+function toggleFaq(button) {
+    const answer = button.nextElementSibling;
+    const icon = button.querySelector('.faq-icon');
+    
+    answer.classList.toggle('hidden');
+    if (answer.classList.contains('hidden')) {
+        icon.textContent = '+';
+    } else {
+        icon.textContent = '-';
+    }
+}
+</script>
+</main>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white pt-12 pb-6">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Company Info & QR Code -->
+            <div>
+                <h2 class="text-xl font-bold mb-4 text-amber-500">BRIGHT STREET</h2>
+                <p class="text-gray-400 text-sm mb-4">
+                    BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES - L.L.C is your trusted partner for all cleaning, maintenance, and pest control needs in Chittagong, Bangladesh.
+                </p>
+                <h3 class="font-semibold mb-2">Connect with us</h3>
+                <div class="flex space-x-3 mb-6">
+                    <a href="https://facebook.com" target="_blank" class="bg-blue-600 p-2 rounded text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="bg-pink-600 p-2 rounded text-white"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="bg-gray-700 p-2 rounded text-white"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://tiktok.com" target="_blank" class="bg-red-600 p-2 rounded text-white"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://web.whatsapp.com" target="_blank" class="bg-green-600 p-2 rounded text-white"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <!-- QR Code Box -->
+                <div class="bg-white p-2 inline-block rounded shadow">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://github.com/Miskat098" alt="QR Code" class="w-28 h-28 object-contain">
+                </div>
+            </div>
+
+            <!-- Our Services Links -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Our Services</h3>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Deep Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Home Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Sofa Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Pest Control</a></li>
+                </ul>
+                <div class="mt-4">
+                    <button class="bg-white text-black px-4 py-2 rounded text-sm font-semibold hover:bg-gray-200">More Service</button>
+                </div>
+            </div>
+
+            <!-- Get In Touch & Google Maps -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Get In Touch</h3>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-location-dot mr-2 text-amber-500"></i> GEC Circle, Chittagong - Bangladesh</p>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-phone mr-2 text-amber-500"></i>  +880 1812345678</p>
+                <p class="text-sm text-gray-400 mb-4"><i class="fa-solid fa-envelope mr-2 text-amber-500"></i> info@brightstreet.bd</p>
+
+                <!-- Google Maps Embed -->
+                <div class="mt-4 rounded overflow-hidden border border-gray-700 shadow-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7891234567!2d91.815!3d22.356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDIxJzMxLjYiTiA5McKwNDgnNTQuMCJF!5e0!3m2!1sen!2sbd!4v1600000000000!5m2!1sen!2sbd" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 mt-8 pt-4 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+            <p>© 2026 Bright Street General Maintenance & Cleaning Services LLC. All rights reserved.</p>
+            <p class="mt-2 md:mt-0">Designed & Developed by <span class="text-amber-500 font-semibold">Abida Sultana</span></p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

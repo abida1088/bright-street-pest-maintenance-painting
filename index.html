@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Street - Pest, Maintenance & Painting Services</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Top Contact Bar -->
+    <div class="bg-[#2196F3] text-white py-2 px-4">
+        <div class="container mx-auto flex flex-wrap justify-between items-center text-sm">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-phone mr-2"></i> +880 1812345678</span>
+                <span><i class="fa-solid fa-envelope mr-2"></i> info@brightstreet.bd</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="text-2xl font-bold text-blue-900 tracking-wider">
+                    <span class="text-blue-600">BRIGHT</span> <span class="text-amber-500">STREET</span>
+                    <p class="text-[10px] text-gray-500 font-normal tracking-normal uppercase">bright-street-pest-maintenance-painting  LLC</p>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium">
+                <!-- Home (no link) -->
+                <span class="text-green-600 cursor-default">Home</span>
+
+                <!-- Cleaning (no link) -->
+                <span class="flex items-center cursor-default">
+                    Cleaning <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                </span>
+
+                <!-- Pest Control Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2 cursor-pointer font-medium">
+                        Pest Control <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-60 bg-white border border-gray-100 shadow-xl rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="pages/pest-control.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> PEST Control</a>
+                        <a href="pages/rats-mice-rodents.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Rats, Mice & Rodents</a>
+                        <a href="pages/cockroach.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Cockroach</a>
+                        <a href="pages/ants.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Ants</a>
+                        <a href="pages/bed-bugs.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Bed Bugs</a>
+                    </div>
+                </div>
+
+                <!-- Maintenance Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Maintenance <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-56 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="pages/ac-maintenance.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> AC Maintenance</a>
+                        <a href="pages/electrical-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Electrical Services</a>
+                        <a href="pages/plumbing-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Plumbing Services</a>
+                        <a href="pages/handyman-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Handyman Services</a>
+                    </div>
+                </div>
+
+                <!-- Painting Services Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Painting Services <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-64 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="pages/painting-bangladesh.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Painting Services in Bangladesh</a>
+                        <a href="pages/apartment-villa-painting.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Apartment & Villa Painting</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="py-12 container mx-auto px-4 min-h-[500px]">
+
+        <!-- Pest Control Detailed Page Section -->
+        <section id="pest-control" class="py-12 bg-white">
+            <div class="container mx-auto px-4 space-y-12">
+
+                <!-- Hero Part -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                            BSGM&CS-LLC Pest Control Services Chittagong – Your Complete Protection Plan
+                        </h1>
+                        <p class="text-lg text-gray-700 font-medium">
+                            Infestations Spreading? We Eradicate Them Rapidly – Completely Guaranteed!
+                        </p>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Prompt & Punctual Service Execution</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Family, Child & Pet-Friendly Formulations</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Quick 24/7 Emergency Response Team</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> 100% Client Satisfaction Guarantee</li>
+                        </ul>
+                        <div>
+                            <a href="#contact" class="inline-block bg-[#3498db] text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-600 transition">Get a Quote</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1584467735811-99883e58f037?auto=format&fit=crop&w=800&q=80" alt="Pest Control Expert" class="rounded-lg shadow-md w-full object-cover h-[350px]">
+                    </div>
+                </div>
+
+                <!-- Description & Importance Part -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-gray-50 p-8 rounded-xl border border-gray-100">
+                    <div class="order-2 lg:order-1">
+                        <img src="https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?auto=format&fit=crop&w=800&q=80" alt="Pest Inspection" class="rounded-lg shadow-md w-full object-cover h-[320px]">
+                    </div>
+                    <div class="space-y-4 order-1 lg:order-2">
+                        <h2 class="text-2xl font-bold text-gray-900">Professional Pest Management in Chittagong</h2>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Frustrated with stubborn pests invading your living or working space? At Bright Street General Maintenance & Cleaning Services LLC, we don’t just apply temporary sprays; we provide thorough and lasting elimination strategies. Recognized as a trusted leader in pest eradication, our specialized techniques ensure safe, same-day solutions to restore absolute hygiene and comfort.
+                        </p>
+                        <h3 class="text-xl font-bold text-gray-900 pt-2">Why Is Professional Pest Control Vital?</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Chittagong's humid environment creates an ideal breeding ground for pests like cockroaches, ants, rodents, and mosquitoes. Beyond physical nuisance, they act as major health hazards by spreading bacteria and triggering allergic reactions. Professional intervention safeguards structural integrity and secures a healthy atmosphere.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefits & Features Part -->
+                <div class="space-y-8">
+                    <div class="text-center max-w-2xl mx-auto">
+                        <h2 class="text-2xl lg:text-3xl font-bold text-gray-900">Core Benefits of Our Pest Solutions</h2>
+                        <p class="text-gray-600 mt-2 text-sm">Experience rapid relief and comprehensive security tailored for every environment.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="bg-white p-6 rounded-lg shadow border border-gray-100 space-y-3">
+                            <h3 class="text-lg font-bold text-gray-900"><i class="fa-solid fa-bolt text-amber-500 mr-2"></i> 360° Protection</h3>
+                            <p class="text-gray-600 text-xs leading-relaxed">Customized protocols designed for compact apartments up to massive commercial spaces, ensuring total eradication.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow border border-gray-100 space-y-3">
+                            <h3 class="text-lg font-bold text-gray-900"><i class="fa-solid fa-leaf text-green-600 mr-2"></i> Safe & Green</h3>
+                            <p class="text-gray-600 text-xs leading-relaxed">Low-odor, chemical-free alternatives and mechanical traps safe for kids, pets, and expecting mothers.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow border border-gray-100 space-y-3">
+                            <h3 class="text-lg font-bold text-gray-900"><i class="fa-solid fa-user-shield text-blue-600 mr-2"></i> Pest Experts</h3>
+                            <p class="text-gray-600 text-xs leading-relaxed">Highly skilled technicians trained to spot unique infestation patterns and treat complex hiding zones efficiently.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow border border-gray-100 space-y-3">
+                            <h3 class="text-lg font-bold text-gray-900"><i class="fa-solid fa-tag text-purple-600 mr-2"></i> Affordable Price</h3>
+                            <p class="text-gray-600 text-xs leading-relaxed">Transparent pricing with no hidden costs, offering flexible yearly contracts and budget-friendly packages.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white pt-12 pb-6">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Company Info & QR Code -->
+            <div>
+                <h2 class="text-xl font-bold mb-4 text-amber-500">BRIGHT STREET</h2>
+                <p class="text-gray-400 text-sm mb-4">
+                    BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES - L.L.C is your trusted partner for all cleaning, maintenance, and pest control needs in Chittagong, Bangladesh.
+                </p>
+                <h3 class="font-semibold mb-2">Connect with us</h3>
+                <div class="flex space-x-3 mb-6">
+                    <a href="https://facebook.com" target="_blank" class="bg-blue-600 p-2 rounded text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="bg-pink-600 p-2 rounded text-white"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="bg-gray-700 p-2 rounded text-white"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://tiktok.com" target="_blank" class="bg-red-600 p-2 rounded text-white"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://web.whatsapp.com" target="_blank" class="bg-green-600 p-2 rounded text-white"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <!-- QR Code Box -->
+                <div class="bg-white p-2 inline-block rounded shadow">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://github.com/Miskat098" alt="QR Code" class="w-28 h-28 object-contain">
+                </div>
+            </div>
+
+            <!-- Our Services Links -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Our Services</h3>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Deep Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Home Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Sofa Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Pest Control</a></li>
+                </ul>
+                <div class="mt-4">
+                    <button class="bg-white text-black px-4 py-2 rounded text-sm font-semibold hover:bg-gray-200">More Service</button>
+                </div>
+            </div>
+
+            <!-- Get In Touch & Google Maps -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Get In Touch</h3>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-location-dot mr-2 text-amber-500"></i> GEC Circle, Chittagong - Bangladesh</p>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-phone mr-2 text-amber-500"></i> +880 1800 000000</p>
+                <p class="text-sm text-gray-400 mb-4"><i class="fa-solid fa-envelope mr-2 text-amber-500"></i> info@brightstreet.bd</p>
+
+                <!-- Google Maps Embed -->
+                <div class="mt-4 rounded overflow-hidden border border-gray-700 shadow-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7891234567!2d91.815!3d22.356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDIxJzMxLjYiTiA5McKwNDgnNTQuMCJF!5e0!3m2!1sen!2sbd!4v1600000000000!5m2!1sen!2sbd" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 mt-8 pt-4 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+            <p>© 2026 Bright Street General Maintenance & Cleaning Services LLC. All rights reserved.</p>
+            <p class="mt-2 md:mt-0">Designed & Developed by <span class="text-amber-500 font-semibold">Abida Sultana</span></p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plumbing Services - Bright Street</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Top Contact Bar -->
+    <div class="bg-[#2196F3] text-white py-2 px-4">
+        <div class="container mx-auto flex flex-wrap justify-between items-center text-sm">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-phone mr-2"></i> +880 1812345678</span>
+                <span><i class="fa-solid fa-envelope mr-2"></i> info@brightstreet.bd</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="text-2xl font-bold text-blue-900 tracking-wider">
+                    <span class="text-blue-600">BRIGHT</span> <span class="text-amber-500">STREET</span>
+                    <p class="text-[10px] text-gray-500 font-normal tracking-normal uppercase">bright-street-pest-maintenance-painting  LLC</p>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium">
+                <!-- Home (no link) -->
+                <span class="text-green-600 cursor-default">Home</span>
+
+                <!-- Cleaning (no link) -->
+                <span class="flex items-center cursor-default">
+                    Cleaning <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                </span>
+
+                <!-- Pest Control Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2 cursor-pointer font-medium">
+                        Pest Control <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-60 bg-white border border-gray-100 shadow-xl rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="pest-control.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> PEST Control</a>
+                        <a href="rats-mice-rodents.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Rats, Mice & Rodents</a>
+                        <a href="cockroach.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Cockroach</a>
+                        <a href="ants.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Ants</a>
+                        <a href="bed-bugs.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Bed Bugs</a>
+                    </div>
+                </div>
+
+                <!-- Maintenance Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Maintenance <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-56 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="ac-maintenance.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> AC Maintenance</a>
+                        <a href="electrical-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Electrical Services</a>
+                        <a href="plumbing-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Plumbing Services</a>
+                        <a href="handyman-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Handyman Services</a>
+                    </div>
+                </div>
+
+                <!-- Painting Services Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Painting Services <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-64 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="painting-bangladesh.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Painting Services in Bangladesh</a>
+                        <a href="apartment-villa-painting.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Apartment & Villa Painting</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+   <div class="space-y-16 py-8 container mx-auto px-4" x-data="{ openFaq: null }">
+
+    <!-- 1. Hero Section -->
+    <div class="relative bg-white rounded-2xl shadow-sm overflow-hidden grid grid-cols-1 lg:grid-cols-2 items-center p-8 lg:p-12">
+        <div class="space-y-6 z-10">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                Number One Plumber In Abu Dhabi
+            </h1>
+            <h2 class="text-lg font-semibold text-gray-700">
+                Most Faithful & Reliable Plumber Service Provider In Abu Dhabi.[cite: 29]
+            </h2>
+            <ul class="space-y-2 text-gray-600 text-sm">
+                <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-blue-500"></i><span>Certified Workers[cite: 29]</span></li>
+                <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-blue-500"></i><span>Quick Response Time[cite: 29]</span></li>
+                <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-blue-500"></i><span>Competitive Rates[cite: 29]</span></li>
+                <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-blue-500"></i><span>Expertise in Plumbing Fixtures[cite: 29]</span></li>
+                <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-blue-500"></i><span>Customer Satisfaction Guaranteed[cite: 29]</span></li>
+            </ul>
+        </div>
+        <div class="flex justify-center mt-6 lg:mt-0">
+            <img src="../images/plumber-hero.jpg" alt="Plumber Abu Dhabi" class="rounded-xl object-cover max-h-[350px] shadow-md">
+        </div>
+    </div>
+
+    <!-- Banner CTA Bar -->
+    <div class="bg-black text-white py-4 px-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-sm md:text-base font-medium">Schedule Your Appointment Today and Enjoy Your Service![cite: 29]</p>
+        <a href="#contact" class="bg-sky-400 hover:bg-sky-500 text-gray-900 font-bold px-6 py-2.5 rounded-lg text-sm transition shadow">
+            GET 15% OFF BSGM&CS-LLC[cite: 29]
+        </a>
+    </div>
+
+    <!-- 2. Reliable & Professional Plumbing Services -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-white p-8 rounded-2xl shadow-sm">
+        <div>
+            <img src="../images/plumber-working.jpg" alt="Plumbing Services" class="rounded-xl object-cover w-full max-h-[380px] shadow-sm">
+        </div>
+        <div class="space-y-4">
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-900">Professional Plumber in Abu Dhabi By BSGM&CS-LLC[cite: 30]</h2>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                When it comes to choosing a <strong class="text-gray-900">Plumber in Abu Dhabi</strong>, we may think of calling a typical plumber because we don't know why we should choose a professional[cite: 30].
+            </p>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                However, without the help of plumbers, it's not possible to lead a smooth and reliable home or business. Plumbing doesn't only relate to our toilets; it also can repair water pipes, faucets leaking taps, drainage systems, plumbing fixtures, septic tank pumping and maintenance, installation of bathroom or kitchen fixtures, heater repair, drain cleaning, WC repair, plumbing inspections, and sewer repair, etc.[cite: 30]
+            </p>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                Just imagine that your bathroom appliances were not installed correctly, and then what will happen next? The answer is straightforward! You have to call the plumber again and again after a few days. Every day you will face new problems and your life will be full of tension[cite: 30].
+            </p>
+        </div>
+    </div>
+
+    <!-- 3. Plumber Services We Offer In Abu Dhabi -->
+    <div class="bg-white p-8 rounded-2xl shadow-sm space-y-6">
+        <h2 class="text-2xl font-bold text-gray-900">Plumber Services We Offer In Abu Dhabi[cite: 31]</h2>
+        <p class="text-gray-600 text-sm">
+            There is no other way to hire a professional plumber in Abu Dhabi for plumbing emergencies, installations, repairs, and maintenance. However, <strong class="text-sky-600">BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C</strong> is one of the most well-known plumbing companies in Abu Dhabi. We offer many commercial and residential plumbing services[cite: 31].
+        </p>
+        <p class="text-gray-600 text-sm">
+            BSGM&CS-LLC primary goal is to ensure top-notch service and customer satisfaction. All of our plumber technicians are experts, well-versed, and highly skilled. They can handle any kind of plumbing issue smoothly. You can trust BSGM&CS-LLC blindly. From installation and plumbing repairs to maintenance and upgrades, we will effortlessly take care of all your plumbing needs[cite: 31].
+        </p>
+        <div class="space-y-4 text-sm text-gray-600">
+            <div>
+                <h3 class="font-bold text-gray-900">Toilet Repair Services:</h3>
+                <p>No one wants a malfunctioning toilet in their home or industry. If your toilet is malfunctioning, you may face an awkward situation. If you can't find the correct plumber, this problem will not be solved perfectly. But no worries, as BSGM&CS-LLC is here. Our expert workers will repair any kind of toilet issue very quickly with the right tools and skills. We will not leave the place until they ensure your toilet functions properly[cite: 31].</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-gray-900">Sink Repair Services:</h3>
+                <p>A leaky or clogged sink can hamper your regular work and make your day more problematic. If you don't install your sink properly, it may lead to many problems. So, make sure your plumber is professional and highly skilled in this kind of work. Our team members can easily help you repair any sink-related problem. No matter which kind of sink you make or model, our professional plumber can handle it perfectly and restore it to its original condition[cite: 31].</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-gray-900">Leak detection and repair:</h3>
+                <p>Early detection prevents major structural damage and saves water bills. Our advanced leak detection tools pinpoint hidden pipe leaks instantly[cite: 31].</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. Why Should You Choose BSGM&CS-LLC -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-8 rounded-2xl shadow-sm">
+        <div>
+            <img src="../images/why-choose-plumber.jpg" alt="Why Choose Plumber" class="rounded-xl object-cover max-h-[350px] shadow-sm">
+        </div>
+        <div class="space-y-6">
+            <h2 class="text-2xl font-bold text-gray-900">Why Should You Choose BSGM&CS-LLC?[cite: 32]</h2>
+            <p class="text-gray-600 text-sm">
+                <strong class="text-gray-900">BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C</strong> is the most well-known plumber in Abu Dhabi. It is known for its quality service and time management[cite: 32].
+            </p>
+            <ul class="space-y-3 text-sm text-gray-600">
+                <li><strong class="text-gray-900">Everything Solutions In One Place:</strong> BSGM&CS-LLC has everything you may need for your home in one place. Our business aim is to help you with any problem you may face in-house[cite: 32].</li>
+                <li><strong class="text-gray-900">Professional Team Members:</strong> All of our team members are well-trained and skilled enough. We didn't make any compromise in our service quality[cite: 32].</li>
+                <li><strong class="text-gray-900">Customer Service Are Great:</strong> Customer satisfaction is our top concern. We are open 24/7 to help customers with any problems they may have[cite: 32].</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 5. Customer FAQ Section with Toggle functionality -->
+    <div class="bg-white p-8 rounded-2xl shadow-sm space-y-6">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Customer FAQ – Frequently Asked Questions[cite: 33]</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <!-- FAQ Item 1 -->
+            <div class="border border-gray-200 bg-gray-50 rounded-xl overflow-hidden transition">
+                <button @click="openFaq = openFaq === 1 ? null : 1" class="w-full p-4 flex items-center justify-between text-sm font-medium text-gray-800 text-left focus:outline-none">
+                    <span>What services are included in your plumbing offerings?[cite: 33]</span>
+                    <i class="fa-solid" :class="openFaq === 1 ? 'fa-circle-minus text-sky-600' : 'fa-circle-plus text-gray-400'"></i>
+                </button>
+                <div x-show="openFaq === 1" x-transition class="px-4 pb-4 text-xs text-gray-600 leading-relaxed border-t border-gray-200 pt-2">
+                    Our plumbing services include toilet repairs, sink repairs, leak detection, pipe fixing, drainage maintenance, and complete bathroom or kitchen fixture installations.
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="border border-gray-200 bg-gray-50 rounded-xl overflow-hidden transition">
+                <button @click="openFaq = openFaq === 2 ? null : 2" class="w-full p-4 flex items-center justify-between text-sm font-medium text-gray-800 text-left focus:outline-none">
+                    <span>What sets BSGM&CS-LLC apart from other plumbing services?[cite: 33]</span>
+                    <i class="fa-solid" :class="openFaq === 2 ? 'fa-circle-minus text-sky-600' : 'fa-circle-plus text-gray-400'"></i>
+                </button>
+                <div x-show="openFaq === 2" x-transition class="px-4 pb-4 text-xs text-gray-600 leading-relaxed border-t border-gray-200 pt-2">
+                    We offer 24/7 availability, highly skilled and certified team members, transparent pricing, and all-in-one property maintenance solutions in Abu Dhabi.
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="border border-gray-200 bg-gray-50 rounded-xl overflow-hidden transition">
+                <button @click="openFaq = openFaq === 3 ? null : 3" class="w-full p-4 flex items-center justify-between text-sm font-medium text-gray-800 text-left focus:outline-none">
+                    <span>Why should I hire a professional plumbing service?[cite: 33]</span>
+                    <i class="fa-solid" :class="openFaq === 3 ? 'fa-circle-minus text-sky-600' : 'fa-circle-plus text-gray-400'"></i>
+                </button>
+                <div x-show="openFaq === 3" x-transition class="px-4 pb-4 text-xs text-gray-600 leading-relaxed border-t border-gray-200 pt-2">
+                    Professional plumbing ensures safe, long-lasting fixes, preventing recurrent leakages, property damage, and costly repeated repairs.
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="border border-gray-200 bg-gray-50 rounded-xl overflow-hidden transition">
+                <button @click="openFaq = openFaq === 4 ? null : 4" class="w-full p-4 flex items-center justify-between text-sm font-medium text-gray-800 text-left focus:outline-none">
+                    <span>What other services do you offer in Dubai?[cite: 33]</span>
+                    <i class="fa-solid" :class="openFaq === 4 ? 'fa-circle-minus text-sky-600' : 'fa-circle-plus text-gray-400'"></i>
+                </button>
+                <div x-show="openFaq === 4" x-transition class="px-4 pb-4 text-xs text-gray-600 leading-relaxed border-t border-gray-200 pt-2">
+                    Alongside plumbing, we specialize in general maintenance, electrical works, AC servicing, and professional cleaning services across the UAE.
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="border border-gray-200 bg-gray-50 rounded-xl overflow-hidden transition">
+                <button @click="openFaq = openFaq === 5 ? null : 5" class="w-full p-4 flex items-center justify-between text-sm font-medium text-gray-800 text-left focus:outline-none">
+                    <span>How do I find the best plumbing service near me?[cite: 33]</span>
+                    <i class="fa-solid" :class="openFaq === 5 ? 'fa-circle-minus text-sky-600' : 'fa-circle-plus text-gray-400'"></i>
+                </button>
+                <div x-show="openFaq === 5" x-transition class="px-4 pb-4 text-xs text-gray-600 leading-relaxed border-t border-gray-200 pt-2">
+                    You can look for licensed contractors with strong customer reviews and 24/7 emergency support like BSGM&CS-LLC in Abu Dhabi.
+                </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="border border-gray-200 bg-gray-50 rounded-xl overflow-hidden transition">
+                <button @click="openFaq = openFaq === 6 ? null : 6" class="w-full p-4 flex items-center justify-between text-sm font-medium text-gray-800 text-left focus:outline-none">
+                    <span>How can I prevent common plumbing issues?[cite: 33]</span>
+                    <i class="fa-solid" :class="openFaq === 6 ? 'fa-circle-minus text-sky-600' : 'fa-circle-plus text-gray-400'"></i>
+                </button>
+                <div x-show="openFaq === 6" x-transition class="px-4 pb-4 text-xs text-gray-600 leading-relaxed border-t border-gray-200 pt-2">
+                    Regular maintenance checks, avoiding dumping grease in sinks, and scheduling routine pipe inspections can prevent major plumbing problems.
+                </div>
+            </div>
+
+            <!-- FAQ Item 7 -->
+            <div class="border border-gray-200 bg-gray-50 rounded-xl overflow-hidden transition">
+                <button @click="openFaq = openFaq === 7 ? null : 7" class="w-full p-4 flex items-center justify-between text-sm font-medium text-gray-800 text-left focus:outline-none">
+                    <span>What should I do in a plumbing emergency?[cite: 33]</span>
+                    <i class="fa-solid" :class="openFaq === 7 ? 'fa-circle-minus text-sky-600' : 'fa-circle-plus text-gray-400'"></i>
+                </button>
+                <div x-show="openFaq === 7" x-transition class="px-4 pb-4 text-xs text-gray-600 leading-relaxed border-t border-gray-200 pt-2">
+                    Turn off the main water valve immediately and contact our 24/7 emergency response team for rapid assistance.
+                </div>
+            </div>
+
+            <!-- FAQ Item 8 -->
+            <div class="border border-gray-200 bg-gray-50 rounded-xl overflow-hidden transition">
+                <button @click="openFaq = openFaq === 8 ? null : 8" class="w-full p-4 flex items-center justify-between text-sm font-medium text-gray-800 text-left focus:outline-none">
+                    <span>What are common signs of plumbing problems in my home?[cite: 33]</span>
+                    <i class="fa-solid" :class="openFaq === 8 ? 'fa-circle-minus text-sky-600' : 'fa-circle-plus text-gray-400'"></i>
+                </button>
+                <div x-show="openFaq === 8" x-transition class="px-4 pb-4 text-xs text-gray-600 leading-relaxed border-t border-gray-200 pt-2">
+                    Slow draining sinks, damp spots on walls, unexplained high water bills, foul odors, and low water pressure are common warning signs.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Alpine.js CDN (Required for toggle functionality) -->
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+<!-- Download App Section -->
+<div class="bg-white p-8 rounded-2xl shadow-sm grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+    <div class="space-y-6">
+        <h2 class="text-3xl font-bold text-gray-900 leading-tight">
+            Download the app. <br>Easily Manage Your Bookings.
+        </h2>
+        <p class="text-gray-600 text-sm leading-relaxed">
+            Schedule and manage your appointments, check your professional profile and ratings, explore the latest offers, and so much more.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+            <a href="#" class="inline-block">
+                <img src="../images/app-store-badge.svg" alt="App Store" class="h-12">
+            </a>
+            <a href="#" class="inline-block">
+                <img src="../images/google-play-badge.svg" alt="Google Play" class="h-12">
+            </a>
+        </div>
+    </div>
+    <div class="flex justify-center lg:justify-end">
+        <img src="../images/app-mockup.png" alt="App Mockup" class="max-h-[380px] object-contain">
+    </div>
+</div>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white pt-12 pb-6">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Company Info & QR Code -->
+            <div>
+                <h2 class="text-xl font-bold mb-4 text-amber-500">BRIGHT STREET</h2>
+                <p class="text-gray-400 text-sm mb-4">
+                    BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES - L.L.C is your trusted partner for all cleaning, maintenance, and pest control needs in Chittagong, Bangladesh.
+                </p>
+                <h3 class="font-semibold mb-2">Connect with us</h3>
+                <div class="flex space-x-3 mb-6">
+                    <a href="https://facebook.com" target="_blank" class="bg-blue-600 p-2 rounded text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="bg-pink-600 p-2 rounded text-white"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="bg-gray-700 p-2 rounded text-white"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://tiktok.com" target="_blank" class="bg-red-600 p-2 rounded text-white"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://web.whatsapp.com" target="_blank" class="bg-green-600 p-2 rounded text-white"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <!-- QR Code Box -->
+                <div class="bg-white p-2 inline-block rounded shadow">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://github.com/Miskat098" alt="QR Code" class="w-28 h-28 object-contain">
+                </div>
+            </div>
+
+            <!-- Our Services Links -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Our Services</h3>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Deep Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Home Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Sofa Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Pest Control</a></li>
+                </ul>
+                <div class="mt-4">
+                    <button class="bg-white text-black px-4 py-2 rounded text-sm font-semibold hover:bg-gray-200">More Service</button>
+                </div>
+            </div>
+
+            <!-- Get In Touch & Google Maps -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Get In Touch</h3>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-location-dot mr-2 text-amber-500"></i> GEC Circle, Chittagong - Bangladesh</p>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-phone mr-2 text-amber-500"></i> +880 1800 000000</p>
+                <p class="text-sm text-gray-400 mb-4"><i class="fa-solid fa-envelope mr-2 text-amber-500"></i> info@brightstreet.bd</p>
+
+                <!-- Google Maps Embed -->
+                <div class="mt-4 rounded overflow-hidden border border-gray-700 shadow-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7891234567!2d91.815!3d22.356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDIxJzMxLjYiTiA5McKwNDgnNTQuMCJF!5e0!3m2!1sen!2sbd!4v1600000000000!5m2!1sen!2sbd" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 mt-8 pt-4 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+            <p>© 2026 Bright Street General Maintenance & Cleaning Services LLC. All rights reserved.</p>
+            <p class="mt-2 md:mt-0">Designed & Developed by <span class="text-amber-500 font-semibold">Abida Sultana</span></p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

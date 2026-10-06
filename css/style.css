@@ -1,0 +1,4 @@
+/* Smooth scroll when clicking anchor links */
+html {
+    scroll-behavior: smooth;
+}

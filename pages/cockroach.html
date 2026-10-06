@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cockroach - Bright Street</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Top Contact Bar -->
+    <div class="bg-[#2196F3] text-white py-2 px-4">
+        <div class="container mx-auto flex flex-wrap justify-between items-center text-sm">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-phone mr-2"></i> +880 1812345678</span>
+                <span><i class="fa-solid fa-envelope mr-2"></i> info@brightstreet.bd</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="text-2xl font-bold text-blue-900 tracking-wider">
+                    <span class="text-blue-600">BRIGHT</span> <span class="text-amber-500">STREET</span>
+                    <p class="text-[10px] text-gray-500 font-normal tracking-normal uppercase">bright-street-pest-maintenance-painting  LLC</p>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium">
+                <!-- Home (no link) -->
+                <span class="text-green-600 cursor-default">Home</span>
+
+                <!-- Cleaning (no link) -->
+                <span class="flex items-center cursor-default">
+                    Cleaning <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                </span>
+
+                <!-- Pest Control Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2 cursor-pointer font-medium">
+                        Pest Control <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-60 bg-white border border-gray-100 shadow-xl rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="pest-control.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> PEST Control</a>
+                        <a href="rats-mice-rodents.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Rats, Mice & Rodents</a>
+                        <a href="cockroach.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Cockroach</a>
+                        <a href="ants.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Ants</a>
+                        <a href="bed-bugs.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Bed Bugs</a>
+                    </div>
+                </div>
+
+                <!-- Maintenance Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Maintenance <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-56 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="ac-maintenance.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> AC Maintenance</a>
+                        <a href="electrical-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Electrical Services</a>
+                        <a href="plumbing-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Plumbing Services</a>
+                        <a href="handyman-services.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Handyman Services</a>
+                    </div>
+                </div>
+
+                <!-- Painting Services Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center hover:text-blue-600 focus:outline-none py-2">
+                        Painting Services <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-64 bg-white border border-gray-100 shadow-lg rounded-md hidden group-hover:block py-2 z-50">
+                        <a href="painting-bangladesh.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Painting Services in Bangladesh</a>
+                        <a href="apartment-villa-painting.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-600"><i class="fa-solid fa-angles-right text-green-600 mr-2 text-xs"></i> Apartment & Villa Painting</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+   <main class="py-12 container mx-auto px-4 min-h-[500px] space-y-12">
+    
+    <!-- Section 1: Hero Banner -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div class="space-y-6">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                BSGM&CS-LLC Cockroach Pest Control Service in Chittagong – Eliminate Roaches for Good!
+            </h1>
+            <p class="text-lg text-gray-700 font-medium">
+                Cockroaches Don’t Stand a Chance![cite: 20]
+            </p>
+            <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Child & Pet-Safe Treatments[cite: 20]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Same-Day Service Available[cite: 20]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> German & American Roach Specialists[cite: 20]</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Affordable & Long-Lasting Protection[cite: 20]</li>
+            </ul>
+            <div>
+                <a href="#contact" class="inline-block bg-[#3498db] text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-600 transition">Get a Quote</a>[cite: 20]
+            </div>
+        </div>
+        <div>
+            <!-- Image Search Keyword: cockroach-pest-control-technician.jpg -->
+            <img src="../images/cockroach-technician.jpg" alt="Cockroach Control Expert" class="rounded-lg shadow-md w-full object-cover h-[380px]">
+        </div>
+    </div>
+
+    <!-- Section 2: Best Cockroach Pest Control Service & Why Professional Matters -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div class="order-2 lg:order-1">
+            <!-- Image Search Keyword: cockroach-spraying-indoor.jpg -->
+            <img src="../images/cockroach-spraying.jpg" alt="Cockroach Inspection" class="rounded-lg shadow-md w-full object-cover h-[380px]">
+        </div>
+        <div class="space-y-6 order-1 lg:order-2">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">Best Cockroach Pest Control Service in Chittagong</h2>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Roaches in your home or business? They don’t just make you uncomfortable; they pose real health risks and multiply faster than you think. At BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C, we specialize in cockroach pest control in Chittagong that’s powerful and safe for your family and pets. Using advanced German and American roach control technology, we deliver fast, effective, and affordable solutions with long-lasting protection[cite: 21].
+                </p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Why Professional Cockroach Control Matters[cite: 21]</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Cockroaches are way more than just a gross surprise in your kitchen or office, they’re a serious health risk. These pests can spread salmonella, E. coli, and allergens that trigger asthma and allergies. It puts your family at risk[cite: 21].
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3: Benefits of Our Cockroach Pest Control Services -->
+    <div class="bg-white p-6 rounded-xl shadow-sm space-y-6">
+        <h2 class="text-2xl font-bold text-gray-900">Benefits of Our Cockroach Pest Control Services[cite: 22]</h2>
+        
+        <div class="space-y-4">
+            <div class="border-b pb-4">
+                <h3 class="text-lg font-bold text-gray-900">Residential Roach Extermination – Keep Your Family Safe from Disease[cite: 22]</h3>
+                <p class="text-gray-600 text-sm mt-1">Your home should be a safe, clean space, but roaches can quickly turn it into a health nightmare. Our residential treatment targets roaches right where they live, like inside cracks, crevices, kitchens, and bathrooms. We use a combination of gel bait treatments that roaches take back to their nests, and precision spraying to hit hard-to-reach spots. You get follow-up visits to make sure no roach is left behind. This service is perfect for apartments, villas, or shared housing where roaches love to hide and breed[cite: 22].</p>
+            </div>
+            <div class="border-b pb-4">
+                <h3 class="text-lg font-bold text-gray-900">Commercial Roach Control – Protect Your Business Reputation & Compliance[cite: 22]</h3>
+                <p class="text-gray-600 text-sm mt-1">Roaches can be a business killer, especially in restaurants, hotels, or offices where cleanliness matters most. BSGM&CS-LLC offers customized treatment plans tailored to your industry and business size. We use non-toxic, food-safe solutions that won’t interfere with your operations or scare off customers. Our discreet nighttime service means your business runs uninterrupted while we work. Plus, we provide the proper documentation to help you pass health inspections with flying colors[cite: 22].</p>
+            </div>
+            <div class="pb-2">
+                <h3 class="text-lg font-bold text-gray-900">Emergency Infestation Treatment – When Roaches Have Taken Over, We Act Fast![cite: 22]</h3>
+                <p class="text-gray-600 text-sm mt-1">Sometimes, roaches don’t wait, they take over fast and furious. When you have a serious infestation, you need emergency help ASAP. BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES – L.L.C 24/7 emergency team is ready to respond immediately with heavy-duty fogging and powerful knockdown treatments that reduce the roach population fast[cite: 22].</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: Areas We Serve -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div class="space-y-4">
+            <!-- Image Search Keyword: office-pest-control-spraying.jpg -->
+            <img src="../images/office-roach-spraying.jpg" alt="Office Pest Control" class="rounded-lg shadow-md w-full object-cover h-[300px]">
+        </div>
+        <div class="space-y-4">
+            <h2 class="text-2xl font-bold text-gray-900">Areas We Serve – All Over Chittagong</h2>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                No roach infestation is too big or small for us. We proudly serve homes and businesses across Chittagong, including[cite: 23]:
+            </p>
+            <ul class="space-y-2 text-gray-600 text-sm">
+                <li><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> <strong>City Center:</strong> GEC, Nasirabad, Chatteshwari[cite: 23]</li>
+                <li><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> <strong>Residential Areas:</strong> Agrabad, Khulshi, Panchlaish, Nasirabad Housing[cite: 23]</li>
+                <li><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> <strong>Business Hubs:</strong> Commercial areas, GEC Circle, Agrabad Commercial[cite: 23]</li>
+                <li><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> <strong>Industrial Zones:</strong> Patenga, Halishahar, Chittagong EPZ[cite: 23]</li>
+            </ul>
+            <p class="text-xs text-gray-500 pt-2">
+                Wherever you are in Chittagong, BSGM&CS-LLC roach control specialists will reach you fast with expert service[cite: 23].
+            </p>
+        </div>
+    </div>
+
+    <main class="py-12 container mx-auto px-4 min-h-[500px] space-y-12">
+    
+    <!-- Section 1: Hero Banner -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div class="space-y-6">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                BSGM&CS-LLC Cockroach Pest Control Service in Chittagong – Eliminate Roaches for Good!
+            </h1>
+            <p class="text-lg text-gray-700 font-medium">
+                Cockroaches Don’t Stand a Chance!
+            </p>
+            <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Child & Pet-Safe Treatments</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Same-Day Service Available</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> German & American Roach Specialists</li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-3"></i> Affordable & Long-Lasting Protection</li>
+            </ul>
+            <div>
+                <a href="#contact" class="inline-block bg-[#3498db] text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-600 transition">Get a Quote</a>
+            </div>
+        </div>
+        <div>
+            <img src="../images/cockroach-technician.jpg" alt="Cockroach Control Expert" class="rounded-lg shadow-md w-full object-cover h-[380px]">
+        </div>
+    </div>
+
+    <!-- Section 2: Why Choose BSGM&CS-LLC for Roach Control -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl shadow-sm">
+        <div>
+            <img src="../images/cockroach-spraying.jpg" alt="Roach Control Expert" class="rounded-lg shadow-md w-full object-cover h-[380px]">
+        </div>
+        <div class="space-y-4">
+            <h2 class="text-2xl font-bold text-gray-900">Why Choose BSGM&CS-LLC for Roach Control in Chittagong?</h2>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                With years of hands-on experience in Chittagong's unique climate, we know exactly how cockroaches operate, and how to stop them. We use cutting-edge German baiting and spray technology that works fast but stays safe for your family and pets.
+            </p>
+            <p class="text-gray-600 text-sm leading-relaxed">
+                Our methods are low in toxicity but high in impact, meaning you can feel confident your space is safe and roach-free. And we’re not done after the first visit, we don’t stop until the eggs are gone and your problem is solved. Best of all, we offer transparent pricing and flexible plans, so you only pay for what you need.
+            </p>
+        </div>
+    </div>
+
+    <!-- Section 3: Benefits of Our Cockroach Pest Control Services -->
+    <div class="bg-white p-6 rounded-xl shadow-sm space-y-6">
+        <h2 class="text-2xl font-bold text-gray-900">Benefits of Our Cockroach Pest Control Services</h2>
+        <div class="space-y-4">
+            <div class="border-b pb-4">
+                <h3 class="text-lg font-bold text-gray-900">Residential Roach Extermination – Keep Your Family Safe from Disease</h3>
+                <p class="text-gray-600 text-sm mt-1">Your home should be a safe, clean space, but roaches can quickly turn it into a health nightmare. Our residential treatment targets roaches right where they live, like inside cracks, crevices, kitchens, and bathrooms.</p>
+            </div>
+            <div class="border-b pb-4">
+                <h3 class="text-lg font-bold text-gray-900">Commercial Roach Control – Protect Your Business Reputation & Compliance</h3>
+                <p class="text-gray-600 text-sm mt-1">Roaches can be a business killer, especially in restaurants, hotels, or offices where cleanliness matters most. BSGM&CS-LLC offers customized treatment plans tailored to your industry.</p>
+            </div>
+            <div class="pb-2">
+                <h3 class="text-lg font-bold text-gray-900">Emergency Infestation Treatment – When Roaches Have Taken Over, We Act Fast!</h3>
+                <p class="text-gray-600 text-sm mt-1">Sometimes, roaches take over fast and furious. When you have a serious infestation, our 24/7 emergency team responds immediately.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: Testimonials -->
+    <div class="bg-gray-50 p-6 rounded-xl shadow-sm space-y-6">
+        <h2 class="text-2xl font-bold text-gray-900 text-center">Testimonials</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 space-y-4">
+                <i class="fa-solid fa-quote-left text-2xl text-blue-500"></i>
+                <p class="text-gray-600 text-xs leading-relaxed">“We run a busy kitchen, so hygiene is a big deal. BSGM&CS-LLC used food-safe products and cleaned out the entire infestation. Thanks to them, we passed our health inspection easily. Couldn’t be happier.”</p>
+                <div class="font-bold text-sm text-gray-900 pt-2">- Mohammed R., GEC, Chittagong</div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 space-y-4">
+                <i class="fa-solid fa-quote-left text-2xl text-blue-500"></i>
+                <p class="text-gray-600 text-xs leading-relaxed">“Our warehouse was overrun after flooding. BSGM&CS-LLC came within hours, treated everything, and followed up to make sure it stayed clear. Their emergency response saved us from a disaster.”</p>
+                <div class="font-bold text-sm text-gray-900 pt-2">- Sarah K., Nasirabad, Chittagong</div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 space-y-4">
+                <i class="fa-solid fa-quote-left text-2xl text-blue-500"></i>
+                <p class="text-gray-600 text-xs leading-relaxed">“I was worried about using chemicals around my pets and baby. BSGM&CS-LLC assured me their treatment was safe, and they were right. Friendly team, fast service, and no more roaches!”</p>
+                <div class="font-bold text-sm text-gray-900 pt-2">- Omar S., Khulshi, Chittagong</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 5: Customer FAQ (Interactive Accordion) -->
+    <div class="bg-white p-6 rounded-xl shadow-sm space-y-6">
+        <h2 class="text-2xl font-bold text-gray-900 text-center mb-6">Customer FAQ – Frequently Asked Questions For Cockroach Pest Control Service</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- FAQ Item 1 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>How fast will I see results?</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> Most customers see a massive drop in roach activity within 24 to 48 hours as the bait and sprays take full effect.
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>Are the treatments safe for pets and kids?</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> Yes. We use gel baits and sprays that are low in toxicity and applied carefully. You might need to keep pets away until it dries, but everything we use is designed to be family-safe.
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>Do I have to leave my house during the treatment?</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> Generally no. Our standard gel and targeted treatments do not require you to leave your home.
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-gray-900 text-sm focus:outline-none">
+                    <span>How often should I schedule service?</span>
+                    <span class="faq-icon text-lg bg-gray-200 w-6 h-6 rounded-full flex items-center justify-center">+</span>
+                </button>
+                <div class="faq-answer hidden mt-3 text-xs text-gray-600 border-t pt-2">
+                    <strong>Answer:</strong> For commercial spaces, monthly service is recommended. For homes, quarterly prevention plans work best.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!-- JavaScript for FAQ Toggle -->
+<script>
+function toggleFaq(button) {
+    const answer = button.nextElementSibling;
+    const icon = button.querySelector('.faq-icon');
+    
+    answer.classList.toggle('hidden');
+    if (answer.classList.contains('hidden')) {
+        icon.textContent = '+';
+    } else {
+        icon.textContent = '-';
+    }
+}
+</script>
+
+</main>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white pt-12 pb-6">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Company Info & QR Code -->
+            <div>
+                <h2 class="text-xl font-bold mb-4 text-amber-500">BRIGHT STREET</h2>
+                <p class="text-gray-400 text-sm mb-4">
+                    BRIGHT STREET GENERAL MAINTENANCE AND CLEANING SERVICES - L.L.C is your trusted partner for all cleaning, maintenance, and pest control needs in Chittagong, Bangladesh.
+                </p>
+                <h3 class="font-semibold mb-2">Connect with us</h3>
+                <div class="flex space-x-3 mb-6">
+                    <a href="https://facebook.com" target="_blank" class="bg-blue-600 p-2 rounded text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="bg-pink-600 p-2 rounded text-white"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="bg-gray-700 p-2 rounded text-white"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://tiktok.com" target="_blank" class="bg-red-600 p-2 rounded text-white"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://web.whatsapp.com" target="_blank" class="bg-green-600 p-2 rounded text-white"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <!-- QR Code Box -->
+                <div class="bg-white p-2 inline-block rounded shadow">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://github.com/Miskat098" alt="QR Code" class="w-28 h-28 object-contain">
+                </div>
+            </div>
+
+            <!-- Our Services Links -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Our Services</h3>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Deep Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Home Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Sofa Cleaning Services</a></li>
+                    <li><a href="#" class="hover:text-white"><i class="fa-solid fa-angles-right text-xs mr-2 text-amber-500"></i> Pest Control</a></li>
+                </ul>
+                <div class="mt-4">
+                    <button class="bg-white text-black px-4 py-2 rounded text-sm font-semibold hover:bg-gray-200">More Service</button>
+                </div>
+            </div>
+
+            <!-- Get In Touch & Google Maps -->
+            <div>
+                <h3 class="text-lg font-bold mb-4 border-b border-gray-800 pb-2">Get In Touch</h3>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-location-dot mr-2 text-amber-500"></i> GEC Circle, Chittagong - Bangladesh</p>
+                <p class="text-sm text-gray-400 mb-2"><i class="fa-solid fa-phone mr-2 text-amber-500"></i> +880 1812345678</p>
+                <p class="text-sm text-gray-400 mb-4"><i class="fa-solid fa-envelope mr-2 text-amber-500"></i> info@brightstreet.bd</p>
+
+                <!-- Google Maps Embed -->
+                <div class="mt-4 rounded overflow-hidden border border-gray-700 shadow-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7891234567!2d91.815!3d22.356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDIxJzMxLjYiTiA5McKwNDgnNTQuMCJF!5e0!3m2!1sen!2sbd!4v1600000000000!5m2!1sen!2sbd" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 mt-8 pt-4 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+            <p>© 2026 Bright Street General Maintenance & Cleaning Services LLC. All rights reserved.</p>
+            <p class="mt-2 md:mt-0">Designed & Developed by <span class="text-amber-500 font-semibold">Abida Sultana</span></p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
